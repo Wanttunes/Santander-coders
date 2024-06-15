@@ -1,0 +1,36 @@
+
+:root{
+    width: 62,5%;
+}
+form div{
+    background-color: #ffffff;
+}
+#input{
+    width: 20rem;
+    height: 30px;
+}
+#input{
+    margin-bottom: 10rem;
+}
+p{
+    font-size: 1.8rem;
+    text-align: justify;
+}
+div.boxes{
+    height: 100%;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    gap: 1rem 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.box{
+    background-color: blue;
+    border: solid red 10px;
+    border-radius: 0.4rem;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    padding: 1.5rem;
+    display: inline-block;
+}
